@@ -12,7 +12,7 @@
 		String cel = request.getParameter("cel");
 		String idade = request.getParameter("idade");
 		
-		out.printl("<div class 'imprime' <h2> Nome: " +nome+ "<br> Endereço: " +end+ "<br> Celular: " +cel+ "<br> Idade: " +idade+ "</h2></div>");
+		out.println("<div class 'imprime' <h2> Nome: " +nome+ "<br> EndereÃ§o: " +end+ "<br> Celular: " +cel+ "<br> Idade: " +idade+ "</h2></div>");
 	
 	%>
 	</body>
