@@ -1,3 +1,4 @@
+
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -10,6 +11,10 @@ public class MainServlet extends HttpServlet {
 
 	@Override protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 	throws ServletException, IOException{;
+	
+	
+		req.getRequestDispatcher("WEB-INF/formulario.html").forward(req, resp);
+	
 	
 		PrintWriter writer = resp.getWriter();
 		writer.print("Meu Primeiro APP Web");
@@ -34,3 +39,6 @@ public class MainServlet extends HttpServlet {
 
 	}
 }
+
+
+	

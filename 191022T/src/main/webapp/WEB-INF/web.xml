@@ -6,9 +6,23 @@
   	<servlet-name>MainServlet</servlet-name>
   	<servlet-class>MainServlet</servlet-class>
   </servlet>
-  <servlet-mapping>
+  
+   <servlet-mapping>
   	<servlet-name>MainServlet</servlet-name>
-  	<url-pattern>/</url-pattern>
+  	<url-pattern></url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+  	<servlet-name>FormularioServlet</servlet-name>
+  	<servlet-class>FormularioServlet</servlet-class>
+  </servlet>
+  
+ 
+  <servlet-mapping>
+  	<servlet-name>FormularioServlet</servlet-name>
+  	<url-pattern>/formulario</url-pattern>
   </servlet-mapping>
   
   
